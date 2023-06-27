@@ -65,10 +65,10 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="row vh-100">
+        <div class="row">
             <div class="col-sm-12 col-md-6 text-center text-sm-start">
                 <h5 class="display-7 fw-bold" style="color: #233843;">If you would like to chat, here are the links to my social pages:</h5>
-                <ul class="nav col-md-4 justify-content-center list-unstyled d-flex mx-auto">
+                <ul class="nav col-md-4 list-unstyled d-flex mx-auto">
                     <li class="ms-3">
                         <a href="https://www.instagram.com/taprogramming/" target="_blank">
                             <img src="Images/Instagram_Glyph_White.png" alt="Instagram link" width="25" height="auto">
@@ -81,29 +81,33 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-12 col-md-6">
-                <form class="row g-3">
+            <div class="col-sm-12 col-md-6 mt-3">
+                <div class="row text-center bg-danger-subtle border border-danger text-danger-emphasis rounded-3">
+                    <h5 class="display-7 fw-bold mt-2">This feature is temporarily disabled!</h5>
+                    <p>Sorry for any inconvenience caused! If you need to contact me, please do so by using my social links above!</p>
+                </div>
+                <form class="row g-3 mt-1">
                         <div class="col mb-3">
-                            <label for="fName" class="form-label">First name:</label>
-                            <input type="text" id="fName" class="form-control" placeholder="First name">
+                            <label for="fName" class="form-label" style="font-family: Pacifico;">First name:</label>
+                            <input type="text" id="fName" class="form-control" placeholder="First name" disabled>
                         </div>
                         <div class="col mb-3">
-                            <label for="lName" class="form-label">Last name:</label>
-                            <input type="text" id="lName" class="form-control" placeholder="Last name">
+                            <label for="lName" class="form-label" style="font-family: Pacifico;">Last name:</label>
+                            <input type="text" id="lName" class="form-control" placeholder="Last name" disabled>
                         </div>
-                    <div class="mb-3">
-                        <label for="emailInput" class="form-label">Email address:</label>
-                        <input type="email" class="form-control" id="emailInput" placeholder="email@example.co.uk">
-                        <label for="emailInput" class="form-label">I wont share your email address with anyone!</label>
-                    </div>
-                    <div class="mb-3">
-                        <label for="emailMain" class="form-label">Ask your question:</label>
-                        <textarea class="form-control" id="emailMainInput" rows="6" placeholder="Ask any questions here and I'll reply as quick as I can!"></textarea>
-                    </div>
-                    <div class="text-center">
-                        <button type="button" class="btn btn-outline-success">Submit</button>
-                        <button type="button" class="btn btn-outline-danger">Clear</button>
-                    </div>
+                        <div class="mb-3">
+                            <label for="emailInput" class="form-label" style="font-family: Pacifico;">Email address:</label>
+                            <input type="email" class="form-control" id="emailInput" placeholder="email@example.co.uk" disabled>
+                            <label for="emailInput" class="form-label">I wont share your email address with anyone!</label>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailMain" class="form-label" style="font-family: Pacifico;">Ask your question:</label>
+                            <textarea class="form-control" id="emailMainInput" rows="6" placeholder="Ask any questions here and I'll reply as quick as I can!" disabled></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-outline-success" style="font-family: Pacifico;" disabled>Submit</button>
+                            <button type="button" class="btn btn-outline-danger" style="font-family: Pacifico;" disabled>Clear</button>
+                        </div>
                 </form>
 
             </div>
@@ -111,7 +115,7 @@
         </div>
 
     </div>
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mx-auto">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mx-auto fixed-bottom">
             <div class="col-md-4 d-flex align-items-center ms-2 ms-md-5">
                 <a href="index.html" class="mb-3 me-2 mb-md-0 text-decoration-none 1h-1">
                     <img src="Images/PlaceholderLogo.jpg" alt="Logo" width="50" height="auto" style="border-radius: 50%;">
